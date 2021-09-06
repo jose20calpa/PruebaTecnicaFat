@@ -1,0 +1,42 @@
+﻿CREATE TABLE [dbo].[Cliente](
+	[IdCliente] [bigint] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nvarchar](100) NOT NULL,
+	[Apellido] [nvarchar](100) NOT NULL,
+	[NumeroDocumento] [nvarchar](100) NOT NULL,
+	[TipoDocumento] [bigint] NOT NULL,
+	[Direccion] [nvarchar](100) NOT NULL,
+	[Telefono] [nvarchar](100) NOT NULL,
+	[FechaNacimiento] [datetime] NULL
+) ON [PRIMARY]
+
+
+CREATE TABLE [dbo].[Producto](
+	[IdProducto] [bigint] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nvarchar](100) NOT NULL,
+	[Precio] [numeric](18, 2) NOT NULL,
+	[Cantidad] [bigint] NOT NULL,
+	[Descripcion] [nvarchar](200) NULL
+	) ON [PRIMARY]
+
+
+CREATE TABLE [dbo].[Compra](
+	[IdCompra] [bigint] IDENTITY(1,1) NOT NULL,
+	[IdCliente] [bigint] NOT NULL,
+	[FechaCompra] [datetime] NOT NULL,
+	[ValorTotal] [numeric](18, 2) NULL
+) ON [PRIMARY]
+
+CREATE TABLE [dbo].[CompraProducto](
+	[IdCompraProducto] [bigint] IDENTITY(1,1) NOT NULL,
+	[IdCompra] [bigint] NOT NULL,
+	[IdProducto] [bigint] NOT NULL,
+	[Cantidad] [bigint] NOT NULL,
+	[SubTotal] [numeric](18, 2) NOT NULL
+) ON [PRIMARY]
+
+CREATE TABLE [dbo].[RegistroStock](
+	[IdRegistro] [bigint] IDENTITY(1,1) NOT NULL,
+	[IdProducto] [bigint] NOT NULL,
+	[Cantidad] [bigint] NOT NULL,
+	[Fecha] [datetime] NOT NULL
+) ON [PRIMARY]

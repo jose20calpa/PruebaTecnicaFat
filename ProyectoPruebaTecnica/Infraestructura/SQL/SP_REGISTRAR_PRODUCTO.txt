@@ -1,0 +1,23 @@
+﻿USE [dbFacturacion]
+GO
+/****** Object:  StoredProcedure [dbo].[SP_REGISTRAR_PRODUCTO]    Script Date: 5/09/2021 9:10:34 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[SP_REGISTRAR_PRODUCTO] 
+
+-- =============================================
+-- Author:		Jose Calpa	
+-- Create date: 31-08-2021
+-- Description:	Procedimiento para registrar productos
+-- =============================================
+	@nombre nvarchar(100),
+	@precio float,
+	@cantidad bigint,
+	@descripcion nvarchar(100)
+
+AS
+BEGIN
+	insert into Producto (Nombre,Precio,Cantidad,Descripcion) values (@nombre,@precio,@cantidad,@descripcion);
+END

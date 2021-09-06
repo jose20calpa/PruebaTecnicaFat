@@ -1,0 +1,23 @@
+﻿USE [dbFacturacion]
+GO
+/****** Object:  StoredProcedure [dbo].[SP_REGISTRAR_STOCK_PRODUCTO]    Script Date: 5/09/2021 9:16:52 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER  PROCEDURE [dbo].[SP_REGISTRAR_STOCK_PRODUCTO] 
+
+-- =============================================
+-- Author:		Jose Calpa	
+-- Create date: 31-08-2021
+-- Description:	Procedimiento para registrar STOCKproductos
+-- =============================================
+	
+	@IdProducto bigint,
+	@cantidad bigint
+
+AS
+BEGIN
+	insert into RegistroStock(IdProducto,cantidad,Fecha) values (@IdProducto,@cantidad,GETDATE());
+	update Producto set Cantidad = Cantidad +@cantidad where IdProducto = @IdProducto
+END

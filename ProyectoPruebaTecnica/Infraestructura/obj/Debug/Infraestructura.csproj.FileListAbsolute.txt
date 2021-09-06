@@ -1,0 +1,9 @@
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Infraestructura\bin\Debug\Infraestructura.dll
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Infraestructura\bin\Debug\Infraestructura.pdb
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Infraestructura\bin\Debug\Dominio.dll
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Infraestructura\bin\Debug\Dominio.pdb
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Infraestructura\obj\Debug\Infraestructura.csprojAssemblyReference.cache
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Infraestructura\obj\Debug\Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Infraestructura\obj\Debug\Infraestructura.csproj.CopyComplete
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Infraestructura\obj\Debug\Infraestructura.dll
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Infraestructura\obj\Debug\Infraestructura.pdb

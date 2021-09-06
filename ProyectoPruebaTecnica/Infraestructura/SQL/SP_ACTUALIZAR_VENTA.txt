@@ -1,0 +1,23 @@
+﻿USE [dbFacturacion]
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ACTUALIZAR_VENTA]    Script Date: 5/09/2021 9:05:08 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[SP_ACTUALIZAR_VENTA] 
+@IdVenta bigint,
+@Total numeric(18,2)
+
+
+
+-- Author:		JOSE CALPA
+-- Create date: 21-08-21
+-- Description:	PROCEDIMIENTO PARA REGISTRAR LAS VENTAS
+-- =============================================
+
+AS
+BEGIN 
+
+	update compra set ValorTotal= @total where IdCompra = @IdVenta
+END

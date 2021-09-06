@@ -1,0 +1,27 @@
+﻿USE [dbFacturacion]
+GO
+/****** Object:  StoredProcedure [dbo].[SP_OBTENER_PRODUCTOS]    Script Date: 5/09/2021 9:09:32 p. m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- ================================================
+-- Template generated from Template Explorer using:
+-- Create Procedure (New Menu).SQL
+--
+-- Use the Specify Values for Template Parameters 
+-- command (Ctrl-Shift-M) to fill in the parameter 
+-- values below.
+--
+-- This block of comments will not be included in
+-- the definition of the procedure.
+ALTER PROCEDURE [dbo].[SP_OBTENER_PRODUCTOS]
+-- =============================================
+-- Author:		Jose Calpa	
+-- Create date: 31-08-21
+-- Description:	Procedimiento para obtener los productos registrados
+-- =============================================
+AS
+BEGIN
+	Select p.IdProducto,p.Nombre,p.Cantidad,p.Precio from Producto p
+END

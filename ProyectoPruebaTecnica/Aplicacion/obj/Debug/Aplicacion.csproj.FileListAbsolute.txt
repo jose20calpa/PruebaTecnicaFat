@@ -1,0 +1,9 @@
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Aplicacion\bin\Debug\Aplicacion.dll
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Aplicacion\bin\Debug\Aplicacion.pdb
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Aplicacion\obj\Debug\Aplicacion.csprojAssemblyReference.cache
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Aplicacion\obj\Debug\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Aplicacion\obj\Debug\Aplicacion.dll
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Aplicacion\obj\Debug\Aplicacion.pdb
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Aplicacion\bin\Debug\Dominio.dll
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Aplicacion\bin\Debug\Dominio.pdb
+C:\Users\jcalpa\source\repos\ProyectoPruebaTecnica\Aplicacion\obj\Debug\Aplicacion.csproj.CopyComplete
